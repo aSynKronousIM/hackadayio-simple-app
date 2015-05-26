@@ -24,10 +24,11 @@
                 $('.search-results').text('');
 
                 for (var i = 0; i < data.projects.length; i++) {
-                    var results = data.projects[i].name;
-                    var count   = data.projects[i][queryString.toLowerCase()];
-                    var url     = data.projects[i].url;
-                    $('.search-results').append('<p>' + '<a href=' + url + '>' + results + '</a>' + ' - ' + count + ' ' + queryString + '</p>');
+                    var results  = data.projects[i].name;
+                    var count    = data.projects[i][queryString.toLowerCase()];
+                    var url      = data.projects[i].url;
+                    $('.search-results')
+                        .append('<div class="result-item">' + (i + 1) + '. ' + '<a href=' + url + '>' + results + '</a>' + ' - ' + count + ' ' + queryString + '</div>');
                 }
             }
         })

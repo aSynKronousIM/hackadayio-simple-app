@@ -3,6 +3,10 @@ body {
     background-color: #111111;
 }
 
+.row {
+    z-index: -1;
+}
+
 .header {
     background-color: #000;
 }
@@ -11,4 +15,14 @@ body {
     position: relative;
     top: 50%;
     transform: translateY(-25%);
+}
+
+.btn {
+    background-color: #6B6B6B;
+}
+
+.result-item {
+    height: 25px;
+    padding: auto;
+    margin: 20px 0;
 }
