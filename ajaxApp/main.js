@@ -17,7 +17,8 @@
             type: "GET",
             url: "https://api.hackaday.io/v1/projects?api_key=tK1CvfYSIp1zqm3a",
             data: {
-                sortby: queryString.toLowerCase()
+                sortby: queryString.toLowerCase(),
+                per_page: 25
             },
             success: function(data) {
                 $('.search-results').text('');

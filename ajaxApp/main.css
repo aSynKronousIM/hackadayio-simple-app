@@ -1,0 +1,14 @@
+body {
+    color: #BD9F5C;
+    background-color: #111111;
+}
+
+.header {
+    background-color: #000;
+}
+
+#header-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-25%);
+}
