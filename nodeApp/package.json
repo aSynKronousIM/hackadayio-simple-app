@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "had api",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Sean Kim",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "express": "^4.12.4",
+    "request": "^2.55.0"
+  }
+}
